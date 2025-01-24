@@ -1,0 +1,72 @@
+body {
+  margin-left: 20px;
+}
+
+.green {
+  background-color: #3cba54;
+}
+
+.blue {
+  background-color: #4885ed;
+}
+
+.red {
+  background-color: #db3236;
+}
+
+.yellow {
+  background-color: #f4c20d;
+}
+
+.dark {
+  background-color: #36393f;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  padding: 1% 0;
+  border: 1px solid grey;
+  user-select: none;
+}
+
+.innerCard {
+  padding: 10px;
+}
+
+.card {
+  width: 500px;
+  background-color: lightgrey;
+  border: 1px solid darkgray;
+  margin: 10px;
+}
+
+.noLayout {
+  display: block;
+  flex-direction: column;
+}
+.verticalLayout {
+  display: flex;
+  flex-direction: column;
+}
+.horizontalLayout {
+  display: flex;
+  flex-direction: row;
+}
+.gridLayout {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.bodyPart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bodies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

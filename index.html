@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eksempel 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <button onclick="noLayout()">Ingen layout</button>
+    <button onclick="verticalLayout()">Vertikal layout</button>
+    <button onclick="horizontalLayout()">Horisental layout</button>
+    <button onclick="gridLayout()">Grid layout</button>
+
+    <h1>Eksempel 1</h1>
+
+    <!--Verktøy-->
+    <div id="cards">
+      <div class="card">
+        <div class="header green" onclick="showTools()">Verktøy</div>
+        <div id="cardTools"></div>
+        </div>
+      
+
+      <!--HTML-->
+      <div class="card">
+        <div class="blue header" onclick="showHTML()">HTML</div>
+        <div id="cardHTML"></div>
+      </div>
+
+      <!--CSS-->
+      <div class="card">
+        <div class="red header" onclick="showCSS()">CSS</div>
+        <div id="cardCSS"></div>       
+      </div>
+
+      <!--JavaScript-->
+      <div class="card">
+        <div class="yellow header" onclick="showJavaScript()">JavaScript</div>
+        <div id="cardJavaScript"></div>
+        </div>
+
+      <!--Hode, kropp og ben-->
+      <div class="card">
+        <div class="dark header" onclick="showBodyGame()">Hode, kropp og ben</div>
+        <div id="cardGame" class="bodies"></div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
